@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>The Gym - Personal Training</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylsheet" href="blueberry.css" />
+    <link rel="stylesheet" type="text/css" href="style2.css">
+
+    <style type="text/css"></style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="jquery.blueberry.js" type="text/javascript"></script>
+
+    /* jQuery Code*/
+
+    <script>
+
+    $(window).load(function() {
+        $('.blueberry').blueberry();
+    });
+
+    </script>
+
+
+  </head>
+
+  <body>
+    <header>
+
+      <a href="#" id="logo"></a>
+
+      //*========== Navigation Items ==========*//
+      <nav>
+        <a href="#" id="menu-icon"></a>
+        <ul>
+          <li><a href="#" class="current"></a>Home</li>
+          <li><a href="#"></a>Trainers</li>
+          <li><a href="#"></a>Plans</li>
+          <li><a href="#"></a>Facility</li>
+          <li><a href="#"></a>Pricing</li>
+          <li><a href="#"></a>Contact</li>
+        </ul>
+
+      </nav>
+
+    </header>
+
+    /*//*========== Image Slider ==========*//*/
+    <div id="doc">
+      <div id="content">
+        <div class="bluerry"> /* Blueberry is the image slider we will be using */
+          <ul class="slides">
+            <li><img src="http://www.w3newbie.com/wp-content/uploads/inside-gym.png" /></li>
+            <li><img src="http://www.w3newbie.com/wp-content/uploads/push-ups.png" /></li>
+            <li><img src="http://www.w3newbie.com/wp-content/uploads/chest-fly.png" /></li>
+            <li><img src="http://www.w3newbie.com/wp-content/uploads/training.png" /></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    /* Section Breakdowns */
+
+    <section>
+      <img src="http://www.w3newbie.com/wp-content/uploads/trainers.png" />
+      <h1>Best Trainers Around!</h1>
+      <p>Here at The Gym we have the best Training Staff in the Bluegrass!</p>
+    </section>
+
+    <section>
+      <img src="http://www.w3newbie.com/wp-content/uploads/location.png" />
+      <h1>Local and Convenient</h1>
+      <p>Our Location is in a lovely corner of Nulu. Come join us after work or on your lunch break.</p>
+    </section>
+
+    <section>
+      <img src="http://www.w3newbie.com/wp-content/uploads/check.png" />
+      <h1>Check us Out - FREE!</h1>
+      <p>We offer a free two week pass for all who are interested in our facilities. Come in today!</p>
+    </section>
+
+    <div class="clear"></div>
+
+    <article>
+      <img src="http://www.w3newbie.com/wp-content/uploads/gym-classes.jpg" />
+    </article>
+
+    /* Group Class Schedule */
+
+    <aside>
+      <h2>Our Group Class Schedule</h2>
+      <ul class="gym">
+        <li><h3>Studio Cycling at 8 a.m. - 60 minutes</h3></li>
+        <li><h3>Power Yoga at 10 a.m. - </h3></li>
+        <li><h3>Abs Sculpting at Noon - </h3></li>
+        <li><h3>Bike at 2 p.m. - </h3></li>
+        <li><h3>Boot Camp at 5 p.m. - </h3></li>
+      </ul>
+    </aside>
+
+    <div class="clear"></div>
+
+    <section>
+      <img src="http://www.w3newbie.com/wp-content/uploads/ladies-gym.jpg" />
+      <h1>The Ladies Section</h1>
+      <p>Included in our Gym is a ladies only section. Be one with the Estrogen.</p>
+    </section>
+
+    <section>
+      <img src="http://www.w3newbie.com/wp-content/uploads/gym-floor.jpg" />
+      <h1>The Gym Floor</h1>
+      <p>Our floor is very spacious. Enjoy the scenic view on he second floor overlooking the muddy Ohio River!</p>
+    </section>
+
+    <section>
+      <img src="http://www.w3newbie.com/wp-content/uploads/free-weights.jpg" />
+      <h1>Free Weights</h1>
+      <p>Dumbbells and Olympic plates for all you hard bodies out there...Feel the pump!</p>
+    </section>
+
+    /* Footer */
+    <footer>
+      <section>
+        <h3><b>The Gym</b></h3>
+        <p><b>502-403-7707</b><br /><br />
+        1127 Charles St. <br />
+        Louisville, KY 40204 <br />
+        axolson@gmail.com </p>
+      </section>
+
+      /* Social Media */
+      <section>
+        <h3>Connect With Us</h3>
+        <ul class="social">
+          <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/facebook1.png" /></a></li>
+          <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/googleplus.png" /></a></li>
+          <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/twitter1.png" /></a></li>
+          <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/youtube1.png" /></a></li>
+        </ul>
+      </section>
+
+      <section>
+        <img src="http://www.w3newbie.com/wp-content/uploads/weight-lifter.png" />
+      </section>
+    </footer>
+
+    <footer class="second">
+      <p>Copyright, THE GYM 2017</p>
+    </footer>
+
+
+
+  </body>
+</html>
